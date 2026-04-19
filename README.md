@@ -1,8 +1,8 @@
-# posterlens-clustering
+# Harry Plotter and the Cluster of Posters
 
 ![PosterLens mosaic](pictures/postermosaic.png)
 
-PosterLens Clustering explores how movie poster embeddings group together under different clustering algorithms. The project reduces high-dimensional PosterLens-25 image embeddings, compares clustering quality across methods, and publishes an interactive Plotly visualization so the resulting structure is easy to inspect.
+This project explores how movie poster embeddings group together under different clustering algorithms. The project reduces high-dimensional PosterLens-25 image embeddings, compares clustering quality across methods, and publishes an interactive Plotly visualization so the resulting structure is easy to inspect. [Click here to see the demo.](https://shivpatri.github.io/harry-plotter-and-the-cluster-of-posters/)
 
 This repository includes the clustering pipeline, evaluation code, and a static Plotly visualization that can be hosted on GitHub Pages.
 
@@ -56,14 +56,6 @@ This writes the visualization to `docs/index.html`.
 - `visual_data.npy` stores the PCA coordinates and cluster labels
 - `performance.npy` stores the distortion values used by the elbow plot
 - `docs/index.html` is the generated GitHub Pages site
-
-## Publishing
-
-To publish on GitHub Pages:
-
-1. Commit the `docs/` directory.
-2. In GitHub repository settings, set Pages to deploy from the `main` branch and `/docs` folder.
-3. Push changes.
 
 ## Dataset
 
